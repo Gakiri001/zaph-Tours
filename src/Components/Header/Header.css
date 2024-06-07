@@ -1,0 +1,141 @@
+:root {
+  --primarycolor: #3572EF;
+  --secondarycolor: #050C9C;
+  scroll-behavior: smooth;
+}
+.Headertop{
+  display: flex;
+  justify-content: space-between;
+  border: var(--primarycolor) solid 2px;
+  padding: 0.8rem;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.Headertop .HeadertopLeft{
+  width: 45%;
+}
+.Headertop .HeadertopLeft ul{
+  display: flex;
+  justify-content: space-between;
+}
+.Headertop .HeadertopLeft ul li{
+  display: flex;
+  list-style: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--primarycolor);
+}
+.Headertop .HeadertopLeft ul li:hover{
+  color: var(--secondarycolor);
+}
+
+.Headertop .HeadertopRight{
+  width: 45%;
+}
+.Headertop .HeadertopRight ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Headertop .HeadertopRight li{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #050C9C;
+  color: white;
+  font-size: 15px;
+  list-style: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Headertop .HeadertopRight li:hover{
+  background-color:  #3572EF;
+}
+@media screen and (max-width:37.5em) {
+  .Headertop{
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .Headertop .HeadertopLeft{
+    width: 100%;
+  }
+  .Headertop .HeadertopLeft ul{
+    margin-bottom: 15px;
+  }
+  .Headertop .HeadertopRight{
+    width: 45%;
+  }
+  .Headertop .HeadertopRight ul{
+    justify-content: space-between;
+  }
+  .Headertop .HeadertopRight li{
+    font-size: 12px;
+    margin-left: 0px;
+  }
+}
+
+.Headerbottom{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border: #3572EF solid 2px;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 0.2rem;
+
+}
+.Headerbottom .Headerbottomleft{
+  width: 45%;
+}
+.Headerbottom .Headerbottomleft img{
+  width: 60px;
+}
+.Headerbottom .HeaderbottomRight{
+  width: 45%;
+}
+.Headerbottom .HeaderbottomRight ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Headerbottom .HeaderbottomRight ul li{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #3572EF;
+  font-size: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.Headerbottom .HeaderbottomRight ul li .HeaderLink{
+  color: white;
+  text-decoration: none;
+}
+.Headerbottom .HeaderbottomRight ul li:hover{
+  background-color:  #050C9C;
+}
+
+@media screen and (max-width:63.75em) {
+  .Headerbottom .Headerbottomleft{
+    width: 20%;
+  }
+  .Headerbottom .HeaderbottomRight{
+    width: 75%;
+  }
+}
+
+@media screen and (max-width:37.5em) {
+  .Headerbottom{
+    flex-direction: column
+  }
+  .Headerbottom .Headerbottomleft{
+    width: 45%;
+    display: grid;
+    place-content: center;
+    margin-bottom: 10px;
+  }
+  .Headerbottom .HeaderbottomRight{
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,412 @@
+:root {
+  --primarycolor: #E4C59E;
+  --secondarycolor: #AF8260;
+  scroll-behavior: smooth;
+}
+.Hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../../assets/c4.avif);
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.Hero .HeroLeft{
+  width: 45%;
+}
+.Hero .HeroLeft input{
+  width: 100%;
+  padding: 10px 45px;
+  border-radius: 10px;
+  border: none;
+}
+.Hero .HeroLeft input::placeholder{
+  font-size: 16px;
+  margin-bottom:20px;
+  text-transform: capitalize;
+}
+.Hero .HeroLeft h1{
+  color: var(--primarycolor);
+  font-size: 120px;
+  text-align: center;
+  font-style: italic;
+}
+.Hero .HeroRight{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Hero .HeroRight h3{
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.Hero .HeroRight h3 span{
+  color: var(--primarycolor);
+}
+.Hero .HeroRight ul{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.Hero .HeroRight ul li{
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: var(--primarycolor);
+  font-size: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+.Hero .HeroRight ul li .HeroRightbtn{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+}
+.Hero .HeroRight ul li .HeroRightbtn div{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  background-color: white;
+  color: black;
+}
+.Hero .HeroRight ul li .HeroRightbtn span{
+  font-size: 16px;
+  margin-left: 8px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:63.875em) {
+  .Hero .HeroRight ul{
+    width: 100%;
+  }
+}
+@media screen and (max-width:57.5em) {
+  .Hero{
+    flex-direction: column;
+  }
+  .Hero .HeroLeft{
+    width: 100%;
+  }
+  .Hero .HeroRight{
+    width: 100%;
+  }
+  .Hero .HeroRight ul{
+    width: 90%;
+  }
+}
+@media screen and (max-width:42.875em) {
+  .Hero .HeroLeft h1{
+    font-size: 100px;
+  }
+  .Hero .HeroRight h3{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:33.9375em) {
+  .Hero .HeroLeft h1{
+    font-size: 90px;
+  }
+  .Hero .HeroRight h3{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:33.9375em) {
+  .Hero .HeroRight ul{
+    width: 100%;
+  }
+}
+
+.Whyus{
+  display: flex;
+  background-color: var(--secondarycolor);
+  padding: 2rem;
+  justify-content: space-between;
+}
+.Whyus .whyuscard{
+  background-color: var(--primarycolor);
+  margin-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 2rem;
+}
+.Whyus .whyuscard .whyuscardTop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Whyus .whyuscard .whyuscardTop div{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  background-color: var(--secondarycolor);
+  color: white;
+  font-size: 30px;
+}
+.Whyus .whyuscard .whyuscardTop h2{
+  font-size: 60px;
+}
+.Whyus .whyuscard .whyuscardBottom h1{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.Whyus .whyuscard .whyuscardBottom p{
+  line-height: 1.6rem;
+}
+
+@media screen and (max-width: 57.5em) {
+  .Whyus{
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
+
+.Aboutus{
+  display: flex;
+  padding: 2rem;
+  column-gap: 2rem;
+}
+.Aboutus .AboutusLeft{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Aboutus .AboutusLeft h3{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.Aboutus .AboutusLeft h1{
+  font-size: 40px;
+  font-style: italic;
+}
+.Aboutus .AboutusLeft p{
+  line-height: 1.5rem;
+  font-size: 15px;
+}
+.Aboutus .AboutusRight{
+  width: 45%;
+  padding: 1rem 2rem;
+}
+.Aboutus .AboutusRight img{
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 20px;
+}
+.Aboutus .AboutusRight .Aboutstats{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  row-gap: 2rem;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.Aboutus .AboutusRight .Aboutstats div{
+  width: 50%;
+}
+.Aboutus .AboutusRight .Aboutstats div h1{
+  font-style: italic;
+}
+
+@media screen and (max-width:50.625em) {
+  .Aboutus{
+    flex-direction: column;
+  }
+  .Aboutus .AboutusLeft{
+    width: 100%;
+  }
+  .Aboutus .AboutusRight{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+  }
+}
+
+.Featuredest{
+  padding: 2rem;
+}
+.Featuredest h1{
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+.Featuredest .Featuredestwrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+  row-gap: 2rem;
+  align-items: center;
+}
+.Destinationcard{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  border: var(--primarycolor) solid 2px;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+.Destinationcard .color{
+  position: absolute;
+  display: flex;
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+  background-color: var(--primarycolor);
+  bottom: -220px;
+  left: -200px;
+}
+.Destinationcard .color1{
+  position: absolute;
+  display: flex;
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+  background-color: var(--primarycolor);
+  top: -220px;
+  right: -200px;
+}
+.Destinationcard img{
+  width: 200px;
+  border-radius: 50%;
+}
+.Destinationcard .destinationDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Destinationcard .destinationDetails h1{
+  font-size: 40px;
+  text-align: center;
+}
+.Destinationcard .destinationDetails .description{
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.Destinationcard .destinationDetails .prices{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Destinationcard .destinationDetails .prices p{
+  width: 120px;
+  height: 120px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: var(--secondarycolor);
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.Destinationcard .destinationDetails .prices .book{
+  padding: 1rem 2rem;
+  border: var(--secondarycolor) solid 2px;
+  text-decoration: none;
+  color: black;
+}
+.Destinationcard .destinationDetails .prices .book:hover{
+  background: var(--secondarycolor);
+  border: none;
+}
+
+@media screen and (max-width:68.75em) {
+  .Featuredest .Featuredestwrapper{
+    width: 100%;
+  }
+  .Destinationcard img{
+    width: 150px;
+  }
+
+.Destinationcard .destinationDetails .prices p{
+  width: 80px;
+  height: 80px;
+  font-size: 12px;
+}
+.Destinationcard .destinationDetails .prices .book{
+  padding: 0.8rem 1rem;
+}
+}
+@media screen and (max-width:47.5em) {
+  .Destinationcard{
+    width: 100%;
+  }
+}
+@media screen and (max-width:47.5em) {
+  .Destinationcard{
+    flex-direction: column;
+    width: 80%;
+  }
+}
+.Testimonials{
+  padding: 2rem;
+  margin: 0 auto;
+}
+.Testimonials h1{
+  font-size: 30px;
+  text-align: center;
+}
+.Testimonials .TestimonialsWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3ABEF9;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+
+}
+.Testimonials .TestimonialsWrapper .testmoy{
+  width: 30%;
+  background-color: #3572EF;
+  padding: 1rem;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyTop{
+  display: flex;
+  width: 100%;
+  column-gap: 2rem;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyTop .testmoyTopimage{
+  width: 40%;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyTop .testmoyTopimage img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.Testimonials .TestimonialsWrapper .testmoy .testmoyTop .testmoyTopdetails h2{
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyTop .testmoyTopdetails p{
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyBottom{
+  width: 100%;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyBottom h2{
+  font-size: 15px;
+  margin-top: 7px;
+}
+.Testimonials .TestimonialsWrapper .testmoy .testmoyBottom p{
+  font-size: 13px;
+  line-height: 1.2rem;
+}
