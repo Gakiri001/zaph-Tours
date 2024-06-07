@@ -66,6 +66,7 @@
   align-items: center;
   text-decoration: none;
   color: black;
+  padding: 0;
 }
 .Hero .HeroRight ul li .HeroRightbtn div {
   width: 30px;
@@ -120,6 +121,12 @@
 @media screen and (max-width: 33.9375em) {
   .Hero .HeroRight ul {
     width: 100%;
+  }
+  @media screen and (max-width: 26.875em) {
+    .Hero .HeroRight ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
   }
 }
 
@@ -194,10 +201,13 @@
   font-size: 15px;
 }
 .Aboutus .AboutusRight {
+  display: flex;
+  flex-direction: column;
   width: 45%;
   padding: 1rem 2rem;
 }
 .Aboutus .AboutusRight img {
+  width: 100%;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-bottom: 20px;
@@ -213,9 +223,15 @@
 }
 .Aboutus .AboutusRight .Aboutstats div {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Aboutus .AboutusRight .Aboutstats div h1 {
   font-style: italic;
+}
+.Aboutus .AboutusRight .Aboutstats div p {
+  text-align: center;
 }
 
 @media screen and (max-width: 50.625em) {
@@ -230,6 +246,11 @@
     width: 100%;
     display: grid;
     place-content: center;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Aboutus .AboutusRight .Aboutstats {
+    padding: 0;
   }
 }
 
@@ -346,13 +367,13 @@
 }
 @media screen and (max-width: 47.5em) {
   .Destinationcard {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 47.5em) {
-  .Destinationcard {
     flex-direction: column;
     width: 80%;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Destinationcard {
+    width: 100%;
   }
 }
 .Testimonials {

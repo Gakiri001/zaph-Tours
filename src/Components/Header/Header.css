@@ -137,3 +137,8 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 26.875em) {
+  .Headerbottom .HeaderbottomRight ul li {
+    padding: 10px 20px;
+  }
+}

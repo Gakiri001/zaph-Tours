@@ -17,10 +17,9 @@ function Hero() {
         <ul>
           <li>
             <Link className="HeroRightbtn">
-              {" "}
               <div>
                 <BiTrip />
-              </div>{" "}
+              </div>
               <span>Explore the world</span>
             </Link>
           </li>
@@ -28,7 +27,7 @@ function Hero() {
             <Link className="HeroRightbtn">
               <div>
                 <GiLion />
-              </div>{" "}
+              </div>
               <span>Nature and wild</span>
             </Link>
           </li>
