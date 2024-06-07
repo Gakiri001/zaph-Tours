@@ -1,11 +1,11 @@
-import Headertop from "./Headertop"
-import Headerbottom from "./Headerbottom"
+import Headertop from "./Headertop";
+import Headerbottom from "./Headerbottom";
 function Header() {
   return (
     <div className="Header">
-      <Headerbottom/>
+      <Headerbottom />
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

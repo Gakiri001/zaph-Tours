@@ -4,7 +4,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
-import "./Header.css"
+import "./Header.css";
 function Headertop() {
   return (
     <div className="Headertop">
@@ -24,7 +24,7 @@ function Headertop() {
       </div>
       <hr />
     </div>
-  )
+  );
 }
 
-export default Headertop
+export default Headertop;

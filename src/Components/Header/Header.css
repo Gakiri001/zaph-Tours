@@ -1,9 +1,9 @@
 :root {
-  --primarycolor: #3572EF;
-  --secondarycolor: #050C9C;
+  --primarycolor: #3572ef;
+  --secondarycolor: #050c9c;
   scroll-behavior: smooth;
 }
-.Headertop{
+.Headertop {
   display: flex;
   justify-content: space-between;
   border: var(--primarycolor) solid 2px;
@@ -12,130 +12,128 @@
   align-items: center;
 }
 
-.Headertop .HeadertopLeft{
+.Headertop .HeadertopLeft {
   width: 45%;
 }
-.Headertop .HeadertopLeft ul{
+.Headertop .HeadertopLeft ul {
   display: flex;
   justify-content: space-between;
 }
-.Headertop .HeadertopLeft ul li{
+.Headertop .HeadertopLeft ul li {
   display: flex;
   list-style: none;
   font-size: 16px;
   cursor: pointer;
   color: var(--primarycolor);
 }
-.Headertop .HeadertopLeft ul li:hover{
+.Headertop .HeadertopLeft ul li:hover {
   color: var(--secondarycolor);
 }
 
-.Headertop .HeadertopRight{
+.Headertop .HeadertopRight {
   width: 45%;
 }
-.Headertop .HeadertopRight ul{
+.Headertop .HeadertopRight ul {
   display: flex;
   justify-content: flex-end;
 }
 
-.Headertop .HeadertopRight li{
+.Headertop .HeadertopRight li {
   padding: 10px 30px;
   border-radius: 10px;
-  background-color: #050C9C;
+  background-color: #050c9c;
   color: white;
   font-size: 15px;
   list-style: none;
   cursor: pointer;
   margin-left: 10px;
 }
-.Headertop .HeadertopRight li:hover{
-  background-color:  #3572EF;
+.Headertop .HeadertopRight li:hover {
+  background-color: #3572ef;
 }
-@media screen and (max-width:37.5em) {
-  .Headertop{
+@media screen and (max-width: 37.5em) {
+  .Headertop {
     flex-direction: column;
     justify-content: center;
     align-content: center;
   }
-  .Headertop .HeadertopLeft{
+  .Headertop .HeadertopLeft {
     width: 100%;
   }
-  .Headertop .HeadertopLeft ul{
+  .Headertop .HeadertopLeft ul {
     margin-bottom: 15px;
   }
-  .Headertop .HeadertopRight{
+  .Headertop .HeadertopRight {
     width: 45%;
   }
-  .Headertop .HeadertopRight ul{
+  .Headertop .HeadertopRight ul {
     justify-content: space-between;
   }
-  .Headertop .HeadertopRight li{
+  .Headertop .HeadertopRight li {
     font-size: 12px;
     margin-left: 0px;
   }
 }
 
-.Headerbottom{
+.Headerbottom {
   display: flex;
   justify-content: space-between;
   padding: 0.8rem;
-  border: #3572EF solid 2px;
+  border: #3572ef solid 2px;
   align-items: center;
   border-radius: 10px;
   margin-top: 0.2rem;
-
 }
-.Headerbottom .Headerbottomleft{
+.Headerbottom .Headerbottomleft {
   width: 45%;
 }
-.Headerbottom .Headerbottomleft img{
+.Headerbottom .Headerbottomleft img {
   width: 60px;
 }
-.Headerbottom .HeaderbottomRight{
+.Headerbottom .HeaderbottomRight {
   width: 45%;
 }
-.Headerbottom .HeaderbottomRight ul{
+.Headerbottom .HeaderbottomRight ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Headerbottom .HeaderbottomRight ul li{
+.Headerbottom .HeaderbottomRight ul li {
   padding: 10px 30px;
   border-radius: 10px;
-  background-color: #3572EF;
+  background-color: #3572ef;
   font-size: 15px;
   list-style: none;
   cursor: pointer;
 }
-.Headerbottom .HeaderbottomRight ul li .HeaderLink{
+.Headerbottom .HeaderbottomRight ul li .HeaderLink {
   color: white;
   text-decoration: none;
 }
-.Headerbottom .HeaderbottomRight ul li:hover{
-  background-color:  #050C9C;
+.Headerbottom .HeaderbottomRight ul li:hover {
+  background-color: #050c9c;
 }
 
-@media screen and (max-width:63.75em) {
-  .Headerbottom .Headerbottomleft{
+@media screen and (max-width: 63.75em) {
+  .Headerbottom .Headerbottomleft {
     width: 20%;
   }
-  .Headerbottom .HeaderbottomRight{
+  .Headerbottom .HeaderbottomRight {
     width: 75%;
   }
 }
 
-@media screen and (max-width:37.5em) {
-  .Headerbottom{
-    flex-direction: column
+@media screen and (max-width: 37.5em) {
+  .Headerbottom {
+    flex-direction: column;
   }
-  .Headerbottom .Headerbottomleft{
+  .Headerbottom .Headerbottomleft {
     width: 45%;
     display: grid;
     place-content: center;
     margin-bottom: 10px;
   }
-  .Headerbottom .HeaderbottomRight{
+  .Headerbottom .HeaderbottomRight {
     width: 100%;
   }
 }
-

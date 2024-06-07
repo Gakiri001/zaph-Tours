@@ -1,9 +1,9 @@
-import testimonials from "../../data/testimonial"
+import testimonials from "../../data/testimonial";
 import { FaStar } from "react-icons/fa";
 import React from "react";
 
-const Testmoy = ({image,name,country,heading,description}) =>{
-  return(
+const Testmoy = ({ image, name, country, heading, description }) => {
+  return (
     <section className="testmoy">
       <div className="testmoyTop">
         <div className="testmoyTopimage">
@@ -12,7 +12,13 @@ const Testmoy = ({image,name,country,heading,description}) =>{
         <div className="testmoyTopdetails">
           <h2>Name: {name}</h2>
           <p>Nation: {country}</p>
-          <p className="rate">Rating: <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/> </p>
+          <p className="rate">
+            Rating: <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />{" "}
+          </p>
         </div>
       </div>
       <div className="testmoyBottom">
@@ -20,8 +26,8 @@ const Testmoy = ({image,name,country,heading,description}) =>{
         <p>{description}</p>
       </div>
     </section>
-  )
-}
+  );
+};
 
 function Testimonials() {
   return (
@@ -29,20 +35,20 @@ function Testimonials() {
       <section className="Testimonials">
         <h1>Testimonials</h1>
         <section className="TestimonialsWrapper">
-          {testimonials.map((currentTestmony,i) => (
+          {testimonials.map((currentTestmony, i) => (
             <Testmoy
-            key={i}
-            image={currentTestmony.image}
-            name={currentTestmony.name}
-            country={currentTestmony.country}
-            heading={currentTestmony.heading}
-            description={currentTestmony.description}
+              key={i}
+              image={currentTestmony.image}
+              name={currentTestmony.name}
+              country={currentTestmony.country}
+              heading={currentTestmony.heading}
+              description={currentTestmony.description}
             />
           ))}
         </section>
       </section>
     </React.Fragment>
-  )
+  );
 }
 
-export default Testimonials
+export default Testimonials;

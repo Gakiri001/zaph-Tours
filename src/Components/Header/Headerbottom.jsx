@@ -1,6 +1,6 @@
-import "./Header.css"
-import logo from "../../assets/mut_logo.png"
-import { Link } from "react-router-dom"
+import "./Header.css";
+import logo from "../../assets/mut_logo.png";
+import { Link } from "react-router-dom";
 function Headerbottom() {
   return (
     <div className="Headerbottom">
@@ -9,22 +9,30 @@ function Headerbottom() {
       </div>
       <div className="HeaderbottomRight">
         <ul>
-        <li><Link className="HeaderLink" to="/">
-        Home
-        </Link></li>
-        <li><Link className="HeaderLink" to="/">
-        Destination
-        </Link></li>
-        <li><Link className="HeaderLink" to="/">
-        Trips
-        </Link></li>
-        <li><Link className="HeaderLink" to="/">
-        Contact
-        </Link></li>
+          <li>
+            <Link className="HeaderLink" to="/">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link className="HeaderLink" to="/">
+              Destination
+            </Link>
+          </li>
+          <li>
+            <Link className="HeaderLink" to="/">
+              Trips
+            </Link>
+          </li>
+          <li>
+            <Link className="HeaderLink" to="/">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
-export default Headerbottom
+export default Headerbottom;
