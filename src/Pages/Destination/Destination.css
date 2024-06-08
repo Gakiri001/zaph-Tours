@@ -1,0 +1,367 @@
+:root {
+  --primarycolor: #e4c59e;
+  --secondarycolor: #af8260;
+  scroll-behavior: smooth;
+}
+.Destination {
+  padding: 2rem;
+  background-color: var(--secondarycolor);
+}
+.Destination .header {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+.Destination .DestinationWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  row-gap: 40px;
+  align-items: center;
+}
+.Destination .DestinationWrapper .destinationcard {
+  background-color: var(--primarycolor);
+  display: flex;
+  width: 80%;
+  padding: 1rem;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.Destination .DestinationWrapper .destinationcard .destinationcardLeft {
+  width: 70%;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftTop {
+  width: 100%;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftTop
+  h1 {
+  text-align: center;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftBtm {
+  width: 100%;
+  display: flex;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftBtm
+  .cardBtmleftleft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftBtm
+  .cardBtmleftleft
+  p {
+  font-size: 15px;
+  line-height: 1.5rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftBtm
+  .cardBtmleftleft
+  h3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftBtm
+  .cardBtmleftRight {
+  width: 50%;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardLeft
+  .destinationcardLeftBtm
+  .cardBtmleftRight
+  img {
+  width: 300px;
+  border-radius: 50%;
+}
+.Destination .DestinationWrapper .destinationcard .destinationcardRight {
+  width: 30%;
+}
+.Destination .DestinationWrapper .destinationcard .destinationcardRight img {
+  width: 200px;
+  border-radius: 50%;
+}
+.Destination .DestinationWrapper .destinationcard .destinationcardRight h2 {
+  margin-bottom: 10px;
+}
+.Destination .DestinationWrapper .destinationcard .destinationcardRight h2 sub {
+  font-size: 12px;
+  font-weight: 300;
+}
+.Destination .DestinationWrapper .destinationcard .destinationcardRight .btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .btns
+  .book,
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .btns
+  .learn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .btns
+  .book {
+  background-color: var(--secondarycolor);
+  color: black;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .btns
+  .learn {
+  background-color: var(--secondarycolor);
+  color: black;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .guideAndicons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .guideAndicons
+  .guide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .guideAndicons
+  .guide
+  img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .guideAndicons
+  .guide
+  p {
+  text-align: center;
+  text-transform: capitalize;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .guideAndicons
+  .icons {
+  width: 50%;
+  display: flex;
+  column-gap: 1rem;
+}
+.Destination
+  .DestinationWrapper
+  .destinationcard
+  .destinationcardRight
+  .guideAndicons
+  .icons
+  span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--secondarycolor);
+  color: white;
+  display: grid;
+  place-content: center;
+  font-size: 30px;
+}
+@media screen and (max-width: 77.1875em) {
+  .Destination .DestinationWrapper .destinationcard {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 63.125em) {
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardLeft
+    .destinationcardLeftBtm
+    .cardBtmleftRight
+    img {
+    width: 250px;
+  }
+  .Destination .DestinationWrapper .destinationcard .destinationcardRight img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 57.5em) {
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardLeft
+    .destinationcardLeftBtm
+    .cardBtmleftRight
+    img {
+    width: 180px;
+  }
+  .Destination .DestinationWrapper .destinationcard .destinationcardRight img {
+    width: 100px;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .btns
+    .book,
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .btns
+    .learn {
+    padding: 10px 10px;
+  }
+  .Destination .DestinationWrapper .destinationcard .destinationcardRight h2 {
+    font-size: 15px;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    h2
+    span {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 48.875em) {
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .btns {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .guideAndicons
+    .guide
+    img {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 41.875em) {
+  .Destination .DestinationWrapper .destinationcard {
+    flex-direction: column;
+  }
+  .Destination .DestinationWrapper .destinationcard .destinationcardLeft {
+    width: 100%;
+  }
+  .Destination .DestinationWrapper .destinationcard .destinationcardRight {
+    width: 100%;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .destinationcardRightTop {
+    display: flex;
+    justify-content: space-around;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .destinationcardRightTop
+    .prices {
+    display: flex;
+    flex-direction: column;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .btns {
+    justify-content: center;
+    align-items: center;
+  }
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .btns
+    .book,
+  .Destination
+    .DestinationWrapper
+    .destinationcard
+    .destinationcardRight
+    .btns
+    .learn {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 29.875em) {
+  .Destination {
+    padding: 0;
+  }
+  .Destination .DestinationWrapper {
+    padding: 0.8px;
+  }
+}
