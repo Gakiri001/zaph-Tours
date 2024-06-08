@@ -3,6 +3,9 @@
   --secondarycolor: #af8260;
   scroll-behavior: smooth;
 }
+.Home {
+  height: 100000px;
+}
 .Hero {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(../../assets/c4.avif);
@@ -396,6 +399,7 @@
   width: 30%;
   background-color: var(--primarycolor);
   padding: 1rem;
+  border-radius: 10px;
 }
 .Testimonials .TestimonialsWrapper .testmoy .testmoyTop {
   display: flex;
@@ -432,15 +436,100 @@
 @media screen and (max-width: 48.75em) {
   .Testimonials .TestimonialsWrapper .testmoy {
     width: 46%;
-    }
+  }
 }
 @media screen and (max-width: 48.75em) {
-   .Testimonials .TestimonialsWrapper .testmoy {
+  .Testimonials .TestimonialsWrapper .testmoy {
     width: 80%;
-    }
+  }
 }
 @media screen and (max-width: 48.75em) {
   .Testimonials .TestimonialsWrapper .testmoy {
     width: 100%;
-    }
+  }
+}
+
+.Newsletter {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Newsletter .NewsletterWrapper {
+  border: var(--secondarycolor) 2px solid;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.Newsletter .NewsletterWrapper .color1,
+.Newsletter .NewsletterWrapper .color {
+  position: absolute;
+  display: flex;
+  width: 300px;
+  border-radius: 50%;
+  height: 300px;
+  background-color: var(--secondarycolor);
+}
+.Newsletter .NewsletterWrapper .color1 {
+  bottom: -220px;
+  left: -200px;
+}
+.Newsletter .NewsletterWrapper .color {
+  top: -220px;
+  right: -200px;
+}
+.Newsletter .NewsletterWrapper .NewsletterTop {
+  margin-bottom: 30px;
+}
+
+.Newsletter .NewsletterWrapper .NewsletterTop h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--secondarycolor);
+}
+
+.Newsletter .NewsletterWrapper .NewsletterTop p {
+  text-align: center;
+  text-transform: capitalize;
+}
+.Newsletter .NewsletterWrapper .NewsletterBottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.Newsletter .NewsletterWrapper .NewsletterBottom input {
+  padding: 10px 20px;
+}
+.Newsletter .NewsletterWrapper .NewsletterBottom .Subscribebtn {
+  padding: 10px 40px;
+  background-color: var(--secondarycolor);
+  display: flex;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.Newsletter .NewsletterWrapper .NewsletterBottom .Subscribebtn:hover {
+  background-color: var(--primarycolor);
+}
+.Newsletter .NewsletterWrapper .NewsletterBottom .Subscribebtn .spanicon {
+  color: var(--secondarycolor);
+  display: grid;
+  place-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+.Newsletter .NewsletterWrapper .NewsletterBottom .Subscribebtn .spanname {
+  text-align: center;
 }
