@@ -387,14 +387,14 @@
 .Testimonials .TestimonialsWrapper {
   display: flex;
   flex-wrap: wrap;
-  background-color: #3abef9;
+  background-color: var(--secondarycolor);
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
 }
 .Testimonials .TestimonialsWrapper .testmoy {
   width: 30%;
-  background-color: #3572ef;
+  background-color: var(--primarycolor);
   padding: 1rem;
 }
 .Testimonials .TestimonialsWrapper .testmoy .testmoyTop {
@@ -428,4 +428,19 @@
 .Testimonials .TestimonialsWrapper .testmoy .testmoyBottom p {
   font-size: 13px;
   line-height: 1.2rem;
+}
+@media screen and (max-width: 48.75em) {
+  .Testimonials .TestimonialsWrapper .testmoy {
+    width: 46%;
+    }
+}
+@media screen and (max-width: 48.75em) {
+   .Testimonials .TestimonialsWrapper .testmoy {
+    width: 80%;
+    }
+}
+@media screen and (max-width: 48.75em) {
+  .Testimonials .TestimonialsWrapper .testmoy {
+    width: 100%;
+    }
 }
