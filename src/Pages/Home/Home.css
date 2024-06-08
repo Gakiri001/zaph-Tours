@@ -3,9 +3,6 @@
   --secondarycolor: #af8260;
   scroll-behavior: smooth;
 }
-.Home {
-  height: 100000px;
-}
 .Hero {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(../../assets/c4.avif);
