@@ -20,7 +20,7 @@ function Headerbottom() {
             </Link>
           </li>
           <li>
-            <Link className="HeaderLink" to="/">
+            <Link className="HeaderLink" to="/Trips">
               Trips
             </Link>
           </li>

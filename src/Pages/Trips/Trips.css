@@ -1,0 +1,176 @@
+:root {
+  --primarycolor: #e4c59e;
+  --secondarycolor: #af8260;
+  scroll-behavior: smooth;
+}
+.Trips {
+  background-color: var(--secondarycolor);
+  padding: 2rem;
+}
+.Trips .header {
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+}
+.Trips .TripsWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  row-gap: 40px;
+  align-items: center;
+}
+.Trips .TripsWrapper .Tripscard {
+  background-color: var(--primarycolor);
+  width: 80%;
+  padding: 1rem;
+  overflow: hidden;
+}
+.Trips .TripsWrapper .Tripscard h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper {
+  display: flex;
+  column-gap: 1rem;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP1 {
+  width: 35%;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP2 {
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP2 p {
+  text-align: center;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP2 .TripscardP2Btm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.Trips
+  .TripsWrapper
+  .Tripscard
+  .TripscardWrapper
+  .TripscardP2
+  .TripscardP2Btm
+  h3,
+.Trips
+  .TripsWrapper
+  .Tripscard
+  .TripscardWrapper
+  .TripscardP2
+  .TripscardP2Btm
+  p {
+  text-align: center;
+}
+.Trips
+  .TripsWrapper
+  .Tripscard
+  .TripscardWrapper
+  .TripscardP2
+  .TripscardP2Btm
+  .TripscardP2BtmBook
+  .book {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: var(--secondarycolor);
+  color: black;
+  border-radius: 10px;
+}
+.Trips
+  .TripsWrapper
+  .Tripscard
+  .TripscardWrapper
+  .TripscardP2
+  .TripscardP2Btm
+  .TripscardP2BtmBook
+  .book:hover {
+  background-color: burlywood;
+  border: var(--secondarycolor) solid 0.8px;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 h2 {
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+
+.TripscardBook{
+  display: flex;
+  justify-content: center;
+}
+.TripscardBook .book{
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: var(--secondarycolor);
+  color: black;
+  border-radius: 10px;
+}
+.TripscardBook .book:hover{
+  background-color: rgb(240, 171, 82);
+}
+
+@media screen and (max-width: 66.25em) {
+  .Trips .TripsWrapper .Tripscard {
+    background-color: var(--primarycolor);
+    width: 100%;
+  }
+}
+@media screen and (max-width: 55.625em) {
+  .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 34.375em) {
+  .Trips {
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 26.875em) {
+  .Trips .TripsWrapper .Tripscard .TripscardWrapper {
+    flex-wrap: wrap;
+  }
+  .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP1 {
+    width: 30%;
+  }
+  .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP1 img {
+    height: 80%;
+    object-fit: cover;
+  }
+  .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP2 {
+    width: 60%;
+  }
+  .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 {
+    width: 100%;
+  }
+
+}

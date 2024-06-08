@@ -99,18 +99,18 @@
   align-items: center;
 }
 .Headerbottom .HeaderbottomRight ul li {
-  padding: 10px 30px;
-  border-radius: 10px;
-  background-color: #3572ef;
-  font-size: 15px;
   list-style: none;
-  cursor: pointer;
 }
 .Headerbottom .HeaderbottomRight ul li .HeaderLink {
   color: white;
   text-decoration: none;
+  background-color: #3572ef;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
 }
-.Headerbottom .HeaderbottomRight ul li:hover {
+.Headerbottom .HeaderbottomRight ul li .HeaderLink:hover {
   background-color: #050c9c;
 }
 
@@ -138,7 +138,7 @@
   }
 }
 @media screen and (max-width: 26.875em) {
-  .Headerbottom .HeaderbottomRight ul li {
+  .Headerbottom .HeaderbottomRight ul li .HeaderLink {
     padding: 10px 20px;
   }
 }
