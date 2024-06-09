@@ -91,6 +91,7 @@ hr{
 .Contact .ContactWrapper .contactRight form textarea{
   width: 30%;
   height: 100px;
+  background-color: white;
 }
 .Contact .ContactWrapper .contactRight form .submit{
   background-color: var(--primarycolor);
