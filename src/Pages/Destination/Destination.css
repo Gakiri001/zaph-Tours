@@ -10,17 +10,16 @@
   flex-direction: column;
   align-items: center;
 }
-.Destination .header{
+.Destination .header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../../assets/park8.jpg);
+    url(../../assets/park8.jpg);
   background-size: cover;
   margin-bottom: 10px;
   width: 80%;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
-  
 }
-.Destination .header h1{
+.Destination .header h1 {
   color: var(--secondarycolor);
   font-size: 80px;
   font-style: italic;
@@ -33,7 +32,6 @@
   align-items: center;
   padding: 1rem;
   row-gap: 40px;
-
 }
 .Destination .DestinationWrapper .destinationcard {
   background-color: var(--primarycolor);
@@ -185,7 +183,7 @@
   .destinationcardRight
   .btns
   .learn:hover {
-  background-color: burlywood;
+  background-color: beige;
 }
 .Destination
   .DestinationWrapper
@@ -258,7 +256,7 @@
   font-size: 30px;
 }
 @media screen and (max-width: 77.1875em) {
-  .Destination .header{
+  .Destination .header {
     width: 100%;
   }
   .Destination .DestinationWrapper .destinationcard {
@@ -392,11 +390,11 @@
   .Destination {
     padding: 0.5rem;
   }
-  .Destination .header{
+  .Destination .header {
     padding: 0 0.5rem;
     margin-bottom: 20px;
   }
-  .Destination .header h1{
+  .Destination .header h1 {
     font-size: 35px;
   }
   .Destination .DestinationWrapper {

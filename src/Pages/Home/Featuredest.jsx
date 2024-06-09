@@ -3,7 +3,14 @@ import featuredDestination from "../../data/featuredest";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-const Destination = ({ image,image2, place, description, priceadult, pricechild }) => {
+const Destination = ({
+  image,
+  image2,
+  place,
+  description,
+  priceadult,
+  pricechild,
+}) => {
   return (
     <section className="Destinationcard">
       <div>

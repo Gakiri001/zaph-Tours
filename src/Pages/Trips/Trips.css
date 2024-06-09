@@ -10,9 +10,9 @@
   flex-direction: column;
   align-items: center;
 }
-.Trips .header{
+.Trips .header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(../../assets/trip2.jpg);
+    url(../../assets/trip2.jpg);
   background-size: cover;
   margin-bottom: 10px;
   width: 80%;
@@ -20,7 +20,7 @@
   border-bottom-left-radius: 50px;
 }
 
-.Trips .header h1{
+.Trips .header h1 {
   color: var(--secondarycolor);
   font-size: 80px;
   text-align: center;
@@ -94,31 +94,6 @@
   p {
   text-align: center;
 }
-.Trips
-  .TripsWrapper
-  .Tripscard
-  .TripscardWrapper
-  .TripscardP2
-  .TripscardP2Btm
-  .TripscardP2BtmBook
-  .book {
-  text-decoration: none;
-  padding: 10px 20px;
-  background-color: var(--secondarycolor);
-  color: black;
-  border-radius: 10px;
-}
-.Trips
-  .TripsWrapper
-  .Tripscard
-  .TripscardWrapper
-  .TripscardP2
-  .TripscardP2Btm
-  .TripscardP2BtmBook
-  .book:hover {
-  background-color: burlywood;
-  border: var(--secondarycolor) solid 0.8px;
-}
 .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 {
   width: 15%;
   display: flex;
@@ -139,23 +114,23 @@
   text-align: center;
 }
 
-.TripscardBook{
+.TripscardBook {
   display: flex;
   justify-content: center;
 }
-.TripscardBook .book{
+.TripscardBook .book {
   text-decoration: none;
   padding: 10px 20px;
   background-color: var(--secondarycolor);
   color: black;
   border-radius: 10px;
 }
-.TripscardBook .book:hover{
-  background-color: rgb(240, 171, 82);
+.TripscardBook .book:hover {
+  background-color: beige;
 }
 
 @media screen and (max-width: 66.25em) {
-  .Trips .header{
+  .Trips .header {
     width: 100%;
   }
   .Trips .TripsWrapper .Tripscard {
@@ -176,7 +151,7 @@
   }
 }
 @media screen and (max-width: 26.875em) {
-  .Trips .header h1{
+  .Trips .header h1 {
     font-size: 35px;
   }
   .Trips .TripsWrapper .Tripscard .TripscardWrapper {
@@ -195,5 +170,4 @@
   .Trips .TripsWrapper .Tripscard .TripscardWrapper .TripscardP3 {
     width: 100%;
   }
-
 }
