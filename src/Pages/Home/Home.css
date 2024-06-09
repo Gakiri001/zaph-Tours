@@ -4,8 +4,9 @@
   scroll-behavior: smooth;
 }
 .Hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../../assets/c4.avif);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/park7.jpg);
+  background-size: cover;
   display: flex;
   padding: 3rem;
   justify-content: space-between;

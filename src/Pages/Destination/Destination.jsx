@@ -88,7 +88,7 @@ function Destination() {
   return (
     <React.Fragment>
       <div className="Destination">
-        <h1 className="header">Destination</h1>
+        <div className="header"><h1>Destination</h1></div>
         <div className="DestinationWrapper">
           {destination.map((current, i) => (
             <Destinationcard

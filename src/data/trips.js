@@ -1,5 +1,24 @@
-import tripPicTest from "../assets/c11.avif";
-import image1 from "../assets/pro1.avif";
+import tripPicTest from "../assets/honeymoon.jpg";
+import tripPicTest1 from "../assets/adventure3.jpg";
+import tripPicTest2 from "../assets/adventure2.jpg";
+import tripPicTest3 from "../assets/kikuyu2.jpg";
+import tripPicTest4 from "../assets/park2.jpg";
+import tripPicTest5 from "../assets/nature2.jpg";
+import tripPicTest6 from "../assets/adventure4.jpg";
+import tripPicTest7 from "../assets/coast4.jpg";
+import tripPicTest8 from "../assets/spa.jpg";
+import tripPicTest9 from "../assets/food1.jpg";
+
+import image1 from "../assets/honeymoon2.jpg";
+import image2 from "../assets/adventure4.jpg";
+import image3 from "../assets/hike.jpg";
+import image4 from "../assets/food2.jpg";
+import image5 from "../assets/park6.jpg";
+import image6 from "../assets/nature.jpg";
+import image7 from "../assets/spa2.jpg";
+import image8 from "../assets/coast5.jpg";
+import image9 from "../assets/yoga1.jpg";
+import image10 from "../assets/kikuyu.jpg";
 
 const trips = [
   {
@@ -23,8 +42,8 @@ const trips = [
     highlight2: "Interactive cultural village tours",
     itinerary:
       " Arrival and evening game drive, Visit to local Maasai village and kids activities",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest1,
+    pic2: image2,
   },
   {
     title: " Ultimate Adventure Expedition",
@@ -34,8 +53,8 @@ const trips = [
     highlights: "White-water rafting",
     highlight2: "Mountain trekking",
     itinerary: "  Hiking expedition, White-water rafting and zip-lining",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest2,
+    pic2: image3,
   },
   {
     title: "Authentic Cultural Immersion",
@@ -46,8 +65,8 @@ const trips = [
     highlight2: "Guided historical site tours",
     itinerary:
       "cultural orientation, Visit to historical sites and local market tour",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest3,
+    pic2: image4,
   },
   {
     title: "Classic Wildlife Safari",
@@ -57,8 +76,8 @@ const trips = [
     highlights: "Big Five game drives",
     highlight2: "Sunset and night safaris",
     itinerary: "evening game drive, Full-day safari and bush dinner",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest4,
+    pic2: image5,
   },
   {
     title: "Eco-Tours",
@@ -69,8 +88,8 @@ const trips = [
     highlight2: "Eco-friendly lodging",
     itinerary:
       "eco-lodge check-in, Visit to a wildlife conservation project and nature walk",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest5,
+    pic2: image6,
   },
   {
     title: "Exclusive Luxury Escape",
@@ -81,8 +100,8 @@ const trips = [
     highlight2: "Gourmet dining experiences",
     itinerary:
       "welcome champagne reception, Private yacht cruise and spa treatment",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest6,
+    pic2: image7,
   },
   {
     title: "Tropical Beach Paradise",
@@ -92,8 +111,8 @@ const trips = [
     highlights: "Snorkeling and diving",
     highlight2: "Beachside massages",
     itinerary: " beach relaxation, Snorkeling trip and sunset beach massage",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest7,
+    pic2: image8,
   },
   {
     title: "Holistic Wellness Retreat",
@@ -104,8 +123,8 @@ const trips = [
     highlight2: "Holistic spa treatments",
     itinerary:
       " introductory wellness session, Morning yoga and afternoon spa treatment",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest8,
+    pic2: image9,
   },
   {
     title: "Gourmet Culinary Journey",
@@ -116,8 +135,8 @@ const trips = [
     highlight2: "Food market tours",
     itinerary:
       "  Arrival and gourmet welcome dinner,  Cooking class and local market visit",
-    pic: tripPicTest,
-    pic2: image1,
+    pic: tripPicTest9,
+    pic2: image10,
   },
 ];
 

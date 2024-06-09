@@ -6,19 +6,34 @@
 .Destination {
   padding: 2rem;
   background-color: var(--secondarycolor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.Destination .header {
-  font-size: 30px;
+.Destination .header{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(../../assets/park8.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  width: 80%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+}
+.Destination .header h1{
+  color: var(--secondarycolor);
+  font-size: 80px;
   font-style: italic;
   text-align: center;
-  margin-top: 10px;
+  padding: 4rem 0;
 }
 .Destination .DestinationWrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 1rem;
   row-gap: 40px;
-  align-items: center;
+
 }
 .Destination .DestinationWrapper .destinationcard {
   background-color: var(--primarycolor);
@@ -243,6 +258,9 @@
   font-size: 30px;
 }
 @media screen and (max-width: 77.1875em) {
+  .Destination .header{
+    width: 100%;
+  }
   .Destination .DestinationWrapper .destinationcard {
     width: 100%;
   }
@@ -372,7 +390,14 @@
 }
 @media screen and (max-width: 29.875em) {
   .Destination {
-    padding: 0;
+    padding: 0.5rem;
+  }
+  .Destination .header{
+    padding: 0 0.5rem;
+    margin-bottom: 20px;
+  }
+  .Destination .header h1{
+    font-size: 35px;
   }
   .Destination .DestinationWrapper {
     padding: 0.8px;

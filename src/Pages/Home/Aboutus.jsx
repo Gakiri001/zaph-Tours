@@ -1,5 +1,5 @@
 import "./Home.css";
-import aboutpic from "../../assets/pro1.avif";
+import aboutpic from "../../assets/family4.jpg";
 function Aboutus() {
   return (
     <div className="Aboutus">

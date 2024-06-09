@@ -3,7 +3,7 @@ import featuredDestination from "../../data/featuredest";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-const Destination = ({ image, place, description, priceadult, pricechild }) => {
+const Destination = ({ image,image2, place, description, priceadult, pricechild }) => {
   return (
     <section className="Destinationcard">
       <div>
@@ -21,7 +21,7 @@ const Destination = ({ image, place, description, priceadult, pricechild }) => {
       </div>
       <div>
         <div className="color1"></div>
-        <img src={image} alt="" />
+        <img src={image2} alt="" />
       </div>
     </section>
   );
@@ -36,6 +36,7 @@ function Featuredest() {
             <Destination
               key={i}
               image={currentdest.image}
+              image2={currentdest.image2}
               place={currentdest.place}
               description={currentdest.description}
               priceadult={currentdest.priceadult}

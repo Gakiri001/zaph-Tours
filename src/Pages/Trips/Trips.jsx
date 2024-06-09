@@ -53,7 +53,7 @@ const Tripscard = ({
 function Trips() {
   return (
     <div className="Trips">
-      <h1 className="header">Trips</h1>
+      <div className="header"> <h1>Trips</h1></div>
       <div className="TripsWrapper">
         {trips.map((current, i) => (
           <Tripscard
